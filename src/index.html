@@ -6,10 +6,11 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
 
             <header class="header">
@@ -50,8 +51,8 @@
             </div>
 
         </div>
-    </div>
-    <div class="advantages">
+    </section>
+    <section class="advantages">
         <div class="container">
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantages__items">
@@ -74,8 +75,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="consultation">
+    </section>
+    <section class="consultation">
         <div class="container">
             <h2 class="title title_left">Получите бесплатную консультацию<br>по подбору пульсометра</h2>
             <div class="consultation__descrp">Просто заполните форму заявки<br>и мы перезвоним вам в течении 10 минут</div>
@@ -86,6 +87,21 @@
                 <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
             </form>
         </div>
-    </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__wrapper">
+                <div class="carousel__inner">
+                    <div class="carousel"><img src="img/slide1.jpg" alt="слайд1"></div>
+                    <div class="carousel"><img src="img/slide2.jpg" alt="слайд2"></div>
+                    <div class="carousel"><img src="img/slide3.jpg" alt="слайд3"></div>
+                </div>
+            </div>
+            <button class="button_prev"><img src="img/left.svg" alt=""></button>
+            <button class="button_next"><img src="img/right.svg" alt=""></button>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

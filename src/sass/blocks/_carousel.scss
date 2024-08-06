@@ -1,0 +1,28 @@
+.carousel{
+    position: relative;
+    &__wrapper{
+        width: 750px;
+        margin: 0 auto;
+    }
+    &__inner{        
+        padding: 81px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .button_next, .button_prev{
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        top: 50%;
+        img{
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .button_next{
+        left: auto;
+        right: 0;
+    }
+}
