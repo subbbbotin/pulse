@@ -1,0 +1,35 @@
+.feedback{
+    min-height: 970px;
+    padding-bottom: 50px;
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-top: 60px;
+    }
+    &__photo{
+        width: 169px;
+        height: 169px;
+    }
+    &__wrapper{
+        width: 716px;
+    }
+    &__name{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        color: #0d0d0d;
+    }
+    &__achievement{
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+    }
+    &__comment{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0d0d0d;
+        margin-top: 10px;
+    }
+}
